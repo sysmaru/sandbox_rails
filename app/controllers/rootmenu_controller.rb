@@ -1,0 +1,2 @@
+class RootmenuController < ApplicationController
+end

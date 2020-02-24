@@ -1,0 +1,2 @@
+module RootmenuHelper
+end
