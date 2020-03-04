@@ -1,0 +1,2 @@
+class OProductController < ApplicationController
+end
