@@ -1,2 +1,11 @@
 o_product</br>
+<% @product_all.each do |prod| %>
+  <%= prod.prd_cd %><br>
+<% end %>
+
+<%= form_for @product, url: {controller: 'o_product', action: 'create' } do |prod| %>
+  <%= prod.label :prd_cd %> <%= prod.text_field :prd_cd, id: :prd_cd %>
+  <%= prod.submit %>
+<% end %>
+
 <%= link_to 'rootmenu', root_path %>

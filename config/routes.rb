@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   root to:'rootmenu#index'
   get 'office_top', to:'office_top#index'
   get 'o_product', to:'o_product#index'
+  post 'o_product', to:'o_product#create'
 end
